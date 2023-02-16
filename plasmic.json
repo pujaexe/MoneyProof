@@ -1,0 +1,270 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": "0.8.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic_plasmic_nav.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ]
+    },
+    {
+      "projectId": "4znbjXig9wF3fZoi7i7zbU",
+      "projectApiToken": "eGcZ0RIHkmCoBZs8MenaHUqxus9tb00e12dO8aX6SMQbRdTBsPGjCMcFB4VGuLIOsjrc8GNchPdCAmiVpzhg",
+      "projectName": "aum-reserve",
+      "version": "latest",
+      "cssFilePath": "plasmic/aum_reserve/plasmic_aum_reserve.module.css",
+      "components": [
+        {
+          "id": "c5usbYN74Zux",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "4znbjXig9wF3fZoi7i7zbU",
+          "renderModuleFilePath": "plasmic/aum_reserve/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/aum_reserve/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "_XwAzx55qV",
+          "name": "AgregateCard",
+          "type": "managed",
+          "projectId": "4znbjXig9wF3fZoi7i7zbU",
+          "renderModuleFilePath": "plasmic/aum_reserve/PlasmicAgregateCard.tsx",
+          "importSpec": {
+            "modulePath": "AgregateCard.tsx"
+          },
+          "cssFilePath": "plasmic/aum_reserve/PlasmicAgregateCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rnVmoefatt",
+          "name": "Cardassets",
+          "type": "managed",
+          "projectId": "4znbjXig9wF3fZoi7i7zbU",
+          "renderModuleFilePath": "plasmic/aum_reserve/PlasmicCardassets.tsx",
+          "importSpec": {
+            "modulePath": "Cardassets.tsx"
+          },
+          "cssFilePath": "plasmic/aum_reserve/PlasmicCardassets.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pBZvgkMhvh",
+          "name": "AccountList",
+          "type": "managed",
+          "projectId": "4znbjXig9wF3fZoi7i7zbU",
+          "renderModuleFilePath": "plasmic/aum_reserve/PlasmicAccountList.tsx",
+          "importSpec": {
+            "modulePath": "../pages/account-list.tsx"
+          },
+          "cssFilePath": "plasmic/aum_reserve/PlasmicAccountList.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "mH2Xk4XS77",
+          "name": "BankStatement",
+          "type": "managed",
+          "projectId": "4znbjXig9wF3fZoi7i7zbU",
+          "renderModuleFilePath": "plasmic/aum_reserve/PlasmicBankStatement.tsx",
+          "importSpec": {
+            "modulePath": "../pages/bank-statement.tsx"
+          },
+          "cssFilePath": "plasmic/aum_reserve/PlasmicBankStatement.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "f6imSQsb8J",
+          "name": "AccountDetails",
+          "type": "managed",
+          "projectId": "4znbjXig9wF3fZoi7i7zbU",
+          "renderModuleFilePath": "plasmic/aum_reserve/PlasmicAccountDetails.tsx",
+          "importSpec": {
+            "modulePath": "../pages/account-details.tsx"
+          },
+          "cssFilePath": "plasmic/aum_reserve/PlasmicAccountDetails.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "BAj1wpRDeS",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "yup5Knqbfr",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "HTqRoNXr25",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "LvNE25NWkq",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "CEYYwmARok",
+          "name": "DotsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__Dotsvg.tsx"
+        },
+        {
+          "id": "B9jZG8PnJd",
+          "name": "WalleticonCirclesvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__WalleticonCirclesvg.tsx"
+        },
+        {
+          "id": "TysYCK0vNZ",
+          "name": "VuesaxsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__Vuesaxsvg.tsx"
+        },
+        {
+          "id": "bXFnY4C0B5",
+          "name": "VuesaxWalletsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__VuesaxWalletsvg.tsx"
+        },
+        {
+          "id": "6X-29seKYp",
+          "name": "VuesaxbanksvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__Vuesaxbanksvg.tsx"
+        },
+        {
+          "id": "4oYJzIWe4E",
+          "name": "VuesaxProfilsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__VuesaxProfilsvg.tsx"
+        },
+        {
+          "id": "YkH3mgn1Ey",
+          "name": "DocumentText1SvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__DocumentText1SvgrepoComsvg.tsx"
+        },
+        {
+          "id": "FNB_D8yLl4",
+          "name": "DocumentDownloadSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__DocumentDownloadSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "F5OipPFaeq",
+          "name": "ZoomIn2SvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__ZoomIn2SvgrepoComsvg.tsx"
+        },
+        {
+          "id": "NnHWJ_Ds8l",
+          "name": "BinanceIconLogowinesvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__BinanceIconLogowinesvg.tsx"
+        },
+        {
+          "id": "x95VK_t-Hc",
+          "name": "UsdSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__UsdSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "QK1xp80Oyc",
+          "name": "WalletSvgrepoCom2SvgIcon",
+          "moduleFilePath": "plasmic/aum_reserve/icons/PlasmicIcon__WalletSvgrepoCom2Svg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "NV28U1dcf",
+          "name": "piechart.png",
+          "filePath": "../public/plasmic/aum_reserve/images/piechartpng.png"
+        },
+        {
+          "id": "aylUgEJya1",
+          "name": "AUM.svg",
+          "filePath": "../public/plasmic/aum_reserve/images/auMsvg.svg"
+        },
+        {
+          "id": "jwSxT-BTD",
+          "name": "image",
+          "filePath": "../public/plasmic/aum_reserve/images/image.png"
+        },
+        {
+          "id": "agIY7OzMW",
+          "name": "image 2",
+          "filePath": "../public/plasmic/aum_reserve/images/image2.png"
+        },
+        {
+          "id": "w2HE8XkKE",
+          "name": "image 3",
+          "filePath": "../public/plasmic/aum_reserve/images/image3.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "dVQ0c3cVpu",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "_1Ms9QtJSa",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "eR-ARZCQQfCpp",
+        "name": "Screen",
+        "projectId": "4znbjXig9wF3fZoi7i7zbU",
+        "contextFilePath": "plasmic/aum_reserve/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.211",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.211/dist/plasmic.schema.json"
+}
