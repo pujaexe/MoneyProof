@@ -37,6 +37,7 @@ import {
 import { NavigationBar } from "@plasmicpkgs/plasmic-nav"; // plasmic-import: jGx9tiKJoex/codeComponent
 import AgregateCard from "../../AgregateCard"; // plasmic-import: _XwAzx55qV/component
 import Cardassets from "../../Cardassets"; // plasmic-import: rnVmoefatt/component
+import { PlasmicHead } from "@plasmicapp/react-web"; // plasmic-import: dVQ0c3cVpu/codeComponent
 
 import { useScreenVariants as useScreenVariantseRArzcqQfCpp } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: eR-ARZCQQfCpp/globalVariant
 
@@ -81,6 +82,7 @@ export type PlasmicHomepage__OverridesType = {
   tokens8?: p.Flex<"div">;
   tokens9?: p.Flex<"div">;
   tokens10?: p.Flex<"div">;
+  head?: p.Flex<typeof PlasmicHead>;
 };
 
 export interface DefaultHomepageProps {}
@@ -187,10 +189,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       displayMinWidth={"0" as const}
                       displayWidth={"auto" as const}
                       src={{
-                        src: "/plasmic/aum_reserve/images/auMsvg.svg",
-                        fullWidth: 300,
-                        fullHeight: 105,
-                        aspectRatio: 2.846154
+                        src: "/plasmic/aum_reserve/images/vaultpilotpng.png",
+                        fullWidth: 432,
+                        fullHeight: 73,
+                        aspectRatio: undefined
                       }}
                     />
                   </p.PlasmicLink>
@@ -1037,6 +1039,14 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             </p.Stack>
           </div>
+
+          <PlasmicHead
+            data-plasmic-name={"head"}
+            data-plasmic-override={overrides.head}
+            className={classNames("__wab_instance", sty.head)}
+            description={"Vault Pilot | Proof of AUM" as const}
+            title={"Vault Pilot | Proof of AUM" as const}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1060,7 +1070,8 @@ const PlasmicDescendants = {
     "tokens7",
     "tokens8",
     "tokens9",
-    "tokens10"
+    "tokens10",
+    "head"
   ],
   header: ["header", "navigationBar"],
   navigationBar: ["navigationBar"],
@@ -1102,7 +1113,8 @@ const PlasmicDescendants = {
   tokens7: ["tokens7"],
   tokens8: ["tokens8"],
   tokens9: ["tokens9"],
-  tokens10: ["tokens10"]
+  tokens10: ["tokens10"],
+  head: ["head"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1124,6 +1136,7 @@ type NodeDefaultElementType = {
   tokens8: "div";
   tokens9: "div";
   tokens10: "div";
+  head: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1202,6 +1215,7 @@ export const PlasmicHomepage = Object.assign(
     tokens8: makeNodeComponent("tokens8"),
     tokens9: makeNodeComponent("tokens9"),
     tokens10: makeNodeComponent("tokens10"),
+    head: makeNodeComponent("head"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
@@ -1209,7 +1223,7 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Proof of AUM",
+      title: "Vault Pilot | Proof of AUM",
       description: "",
       ogImageSrc: "",
       canonical: ""

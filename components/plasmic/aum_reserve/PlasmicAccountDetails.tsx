@@ -175,10 +175,10 @@ function PlasmicAccountDetails__RenderFunc(props: {
                       displayMinWidth={"0" as const}
                       displayWidth={"auto" as const}
                       src={{
-                        src: "/plasmic/aum_reserve/images/auMsvg.svg",
-                        fullWidth: 300,
-                        fullHeight: 105,
-                        aspectRatio: 2.846154
+                        src: "/plasmic/aum_reserve/images/vaultpilotpng.png",
+                        fullWidth: 432,
+                        fullHeight: 73,
+                        aspectRatio: undefined
                       }}
                     />
                   </p.PlasmicLink>

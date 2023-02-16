@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -38,7 +38,8 @@
           "name": "NavigationBar",
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "4znbjXig9wF3fZoi7i7zbU",
@@ -233,6 +234,11 @@
           "id": "w2HE8XkKE",
           "name": "image 3",
           "filePath": "../public/plasmic/aum_reserve/images/image3.png"
+        },
+        {
+          "id": "c-NGCA0zK",
+          "name": "vaultpilot.png",
+          "filePath": "../public/plasmic/aum_reserve/images/vaultpilotpng.png"
         }
       ],
       "indirect": false,
